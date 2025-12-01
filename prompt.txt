@@ -1,0 +1,5 @@
+Analise o conteúdo de uma notícia, e identifique possíveis ativos (tickers) relacionados. 
+Somente ativos listados na B3 devem ser considerados na analise. 
+Ativos diretamente citados na noticia tem um peso 2. 
+Caso a noticia discorra petróleo por exemplo, empresas do ramo petrolífero devem ser citadas, porem com um peso 1. A mesma regra dever ser aplicada a outros setores como energia elétrica, Bancos etc.
+A resposta deve ser curta retornando somente o código dos ativo e seu trespectivo peso.
