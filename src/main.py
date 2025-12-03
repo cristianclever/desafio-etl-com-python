@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
     # Realiza a importacao de uma listagem de ativos. Os resultados são inseridos em uma collection mongodb
     logging.info(f"### Importando listagem de symbols")
-    #ai.import_ticker_list()
+    ai.import_ticker_list()
 
     logging.info(f"### Obtem uma uniao de dados da collection: listagem-de-acoes")
     ticker_dict = load_b3_ticker_info()
