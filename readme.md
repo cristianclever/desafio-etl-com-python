@@ -26,4 +26,7 @@ docker compose up
 * O script obtem dados de noticias disponibilizados em um csv "/resources/Historico_de_materias.csv"
 * O Script analisa o conteudo de cada noticia avaliando se existem ativos relacionados a esta noticia.
   Caso existam, a noticia é enriquecida com "tags" correspondentes aos ativos encontrados
-* A noticias que forem classificadas, são inseridas na base do mongo, na collection "news"  
+* A noticias que forem classificadas, são inseridas na base do mongo, na collection "news" 
+
+Nesse primeira versão não foi utilizado integração com ia (o desafio possibilitou essa opção).
+Em uma versão posterior pretendo realizar a integração, e acredito que o "match" de noticias tende a ser bem mais acertivo. 
